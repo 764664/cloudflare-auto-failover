@@ -1,0 +1,11 @@
+cloudflare-cendentials:
+  api_key: xxxxxxxxxx
+  email: admin@example.com
+records:
+  - 
+    domain: test.example.com
+    protocol: https
+    check_interval: 30
+    servers:
+      - 1.1.1.1
+      - 2.2.2.2
